@@ -4,10 +4,11 @@
   box-sizing: border-box;
 }
 /**** NAVBAR *******/
+
 #navLinks {
   width: 100%;
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-around;
 }
 
 .headerImage {
@@ -22,6 +23,29 @@
   color: rgb(0, 20, 101);
   font-weight: bold;
   cursor: pointer;
+}
+#navLinks i {
+  cursor: pointer;
+}
+.fa-phone {
+  background-color: rgb(231, 231, 248);
+  width: 3rem;
+  height: 2.5rem;
+  border-radius: 8px;
+  text-align: center;
+  padding-top: 0.5rem;
+}
+.communication {
+  background-color: rgb(231, 231, 248);
+  width: 12rem;
+  min-height: 2.5rem;
+  border-radius: 8px;
+  display: flex;
+  justify-content: space-evenly;
+  padding-top: 0.2rem;
+}
+.communication span {
+  padding-top: 0.2rem;
 }
 
 .fa-magnifying-glass,
@@ -56,21 +80,22 @@
   height: 3.5rem;
   font-size: 1.3rem;
 }
+.deneme {
+  display: flex;
+  justify-content: space-evenly;
+}
 
 .slaytImage {
-  height: 40rem;
-  width: 30rem;
+  height: 35rem;
+  max-width: 30rem;
 }
 
 /*** PRODUCT INFO ***/
 
 #productArea {
   display: grid;
-  grid-template-columns: repeat(2, 17rem);
+  grid-template-columns: repeat(2, 16rem);
 }
-/* .productInfo {
-  width: 35rem;
-} */
 
 .productInfo h4 {
   color: rgb(224, 111, 0);
@@ -99,6 +124,11 @@
 }
 
 /*** CARE AREA ***/
+
+.careContainer .card {
+  border: none;
+}
+
 
 .careArea {
   margin-bottom: 4rem;
@@ -323,9 +353,30 @@
   text-align: center;
   margin-top: 2rem;
 }
+@media screen and (max-width: 1200px) {
+  .deneme {
+    display: flex;
+    justify-content: space-evenly;
+  }
+}
+@media screen and (max-width: 992px) {
+  .slaytImage {
+    height: 27rem;
+    max-width: 22rem;
+  }
+  .slaytArea h4 {
+    font-size: 1rem;
+  }
+  .slaytArea h1 {
+    font-size: 3rem;
+  }
+}
 
-@media screen and (max-width: 767px) {
-  .emptyBcg {
-    display: none;
+@media screen and (max-width: 768px) {
+  .product-1,
+  .product-2,
+  .product-3,
+  .product-4 {
+    max-width: 70%;
   }
 }

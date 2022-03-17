@@ -290,7 +290,7 @@
 
 .menuArea,
 .epostaArea {
-  text-align: center;
+  text-align: left;
 }
 .adressArea span,
 .menuArea h4,
@@ -310,9 +310,17 @@
 .epostaArea button {
   margin-bottom: 1.5rem;
 }
+.epostaArea input {
+  width: 15rem;
+  height: 3rem;
+  border: none;
+  background: rgb(215, 212, 212);
+  border-radius: 16px;
+  text-align: center;
+}
 
 .epostaArea button {
-  width: 11rem;
+  width: 15rem;
   height: 3rem;
   color: #fff;
   background: rgb(224, 111, 0);
@@ -323,7 +331,7 @@
   color: rgb(31, 34, 120);
   font-size: 2rem;
   display: flex;
-  justify-content: space-evenly;
+  justify-content: left;
   cursor: pointer;
 }
 .fa-instagram {
@@ -357,6 +365,9 @@
     display: flex;
     justify-content: space-evenly;
   }
+  .emptyBcg {
+    display: none;
+  }
 }
 @media screen and (max-width: 992px) {
   .slaytImage {
@@ -380,8 +391,5 @@
   #productArea img {
     width: 75%;
     margin-bottom: 1rem;
-  }
-  .emptyBcg {
-    display: none;
   }
 }

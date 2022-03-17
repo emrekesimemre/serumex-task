@@ -80,7 +80,7 @@
   height: 3.5rem;
   font-size: 1.3rem;
 }
-.deneme {
+.slaytContainer {
   display: flex;
   justify-content: space-evenly;
 }
@@ -353,7 +353,7 @@
   margin-top: 2rem;
 }
 @media screen and (max-width: 1200px) {
-  .deneme {
+  .slaytContainer {
     display: flex;
     justify-content: space-evenly;
   }

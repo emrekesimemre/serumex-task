@@ -129,7 +129,6 @@
   border: none;
 }
 
-
 .careArea {
   margin-bottom: 4rem;
 }
@@ -372,11 +371,14 @@
   }
 }
 
-@media screen and (max-width: 768px) {
-  .product-1,
-  .product-2,
-  .product-3,
-  .product-4 {
-    max-width: 70%;
+@media screen and (max-width: 578px) {
+  #productArea {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  #productArea img {
+    width: 50%;
+    margin-bottom: 1rem;
   }
 }

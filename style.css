@@ -311,7 +311,7 @@
   margin-bottom: 1.5rem;
 }
 .epostaArea input {
-  width: 15rem;
+  width: 10rem;
   height: 3rem;
   border: none;
   background: rgb(215, 212, 212);
@@ -320,7 +320,7 @@
 }
 
 .epostaArea button {
-  width: 15rem;
+  width: 10rem;
   height: 3rem;
   color: #fff;
   background: rgb(224, 111, 0);
@@ -354,6 +354,14 @@
   );
   background-clip: text;
   -webkit-background-clip: text;
+}
+.fa-brands {
+  padding-right: 1rem;
+}
+.copyrightLine {
+  border: solid 1px rgb(142, 142, 142);
+  max-width: 50rem;
+  margin: auto;
 }
 
 .copyright {
@@ -389,7 +397,7 @@
     align-items: center;
   }
   #productArea img {
-    width: 75%;
+    width: 60%;
     margin-bottom: 1rem;
   }
 }
